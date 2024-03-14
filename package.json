@@ -1,0 +1,26 @@
+{
+  "name": "ets2_dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard para métricas de ETS2",
+  "main": "app.js",
+  "scripts": {
+    "start-ts": "ts-node src/app.ts",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahuelmatiasdelacruz/ets2_dashboard_backend.git"
+  },
+  "author": "Nahuel De La Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahuelmatiasdelacruz/ets2_dashboard_backend/issues"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.27",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  }
+}
